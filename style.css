@@ -1,0 +1,168 @@
+ *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* 
+
+colors:-
+header background : #2C3E50
+hero background : #18BC9C
+main background color : #F7F7F7
+
+*/
+body{
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+
+}
+
+.header{
+    background-color: #2C3E50;
+    color:white;
+    display:flex;
+    justify-content:space-between;
+    padding:0 8vw;
+    height:10vh;
+    align-items: center;
+    font-size:24px;
+    
+}
+.middle{
+    padding:0 8vw;
+    text-align: center;
+    color:grey;
+    height:300px;
+    width:200px
+}
+.hero-section{
+    background-color:#18bc9c;
+    height:90vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:4vh;
+    
+    
+}
+
+.hero-section p{
+    color: white;
+    font-size:48px;
+}
+
+.middle{
+    background-color: #f7f7f7 ;
+    height: 120px;
+    width: 98vw;
+    padding:30px;
+    align-items: center;
+    
+}
+.middle p{
+   color:grey;
+   text-align: center;
+   padding: 20px;
+   
+}
+
+
+
+.btn1{
+    background-color: white;
+    height:35px;
+    width:380px;
+    text-align: start;
+   
+    
+}
+.btn2{
+    background-color: aqua;
+    height:35px;
+    width:80px;
+    
+   
+}
+
+.name{
+    font-size: 30px;
+    padding:70px;
+    background-color: #f7f7f7;
+    text-align: center;
+    color: rgb(142, 136, 136);
+
+}
+
+
+.card-container{
+    display:flex;
+    gap:10px;
+    flex-wrap:wrap;
+    background-color: #f7f7f7;
+    padding:0 8vw;
+    align-items: center;
+   
+    
+    
+}
+
+.card{
+    height: 48vh;
+    width: 20vw;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+}
+.c1{
+    font-size: 14px;
+    color:rgb(83, 82, 82)
+}
+
+
+.card:hover {
+    background-color: aqua;
+}
+
+
+
+
+.card img{
+    border-radius: 50%;
+}
+.card-title{
+    font-weight: bold;
+    font-size:20px;
+    
+}
+.end{
+    background-color: #f7f7f7 ;
+    height: 130px;
+    width: 99vw;
+    padding:30px;
+    align-items: center;
+    
+}
+
+footer{
+    background-color: #2C3E50;
+    height:38vh;
+    width:99vw;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding:40px;
+    color:white;
+}
+   
+
+.footer p{
+    font-size: 15px;
+    padding:10px;
+}
+.a{color:rgb(82, 149, 236);
+}
